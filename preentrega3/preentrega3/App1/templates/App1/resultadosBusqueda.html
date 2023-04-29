@@ -1,0 +1,24 @@
+{% extends "App1/padre.html" %}
+{% load static %}
+{% block contenidoQueCambia %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Agregar Curso</title>
+</head>
+<body>
+     <p> Estamos buscando el: {{color}}</p>
+     {% if colores %} 
+     <ul>
+     {% for color in colores %} 
+         <li>{{color.nombre}}</li>
+         <li>{{color.color}}</li>
+     {% endfor %}
+     </ul>
+     {% endif %}
+</body>
+</html>
+{% endblock %}
