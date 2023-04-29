@@ -1,1 +1,1 @@
-# preentrega3_bellanza
+Para empezar se debe correr el comando "python manage.py runserver", una vez hecho eso se debe ingresar en el buscador la url dada y agregarle al final App1 (con la "A" mayuscula). Una vez alli encotraremos distintas secciones entre las cuales estan los tipos de guitarra, informacion sobre las guitarras, un lugar en el que se pueden registrar guitarras, y un lugar en el cual se pueden buscar las guitarras registradas. Muchas gracias por ver mi entrega!
